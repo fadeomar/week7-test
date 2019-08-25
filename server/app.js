@@ -1,7 +1,6 @@
 const express = require("express");
 const { join } = require("path");
 const router = require("./controllers");
-
 const app = express();
 
 app.use(express.json());
